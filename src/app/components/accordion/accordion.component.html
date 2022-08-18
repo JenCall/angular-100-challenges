@@ -1,1 +1,22 @@
-<p>accordion works!</p>
+<div class="accordion-container">
+    <div class="item" *ngFor="let item of items">
+        <div class="header">
+            <h4>{{item.title}}</h4>
+            <span class="material-symbols-outlined">
+            expand_more
+            </span>
+            <i 
+                class="fas fa-chevron-down" 
+                [class.is-expanded]="item.isExpanded"
+            >
+            </i>
+        </div>
+
+        <div 
+            class="content"
+            [class.is-expanded]="item.isExpanded"
+        >
+            <p>{{item.content}}</p>
+        </div>
+    </div>
+</div>
