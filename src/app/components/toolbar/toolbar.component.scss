@@ -10,6 +10,10 @@
     color: #fff;
 
     @include box-shadow();
+
+    @media screen and (max-width: $tablet) {
+        grid-template-columns: 1fr;
+    }
 }
 
 :host ::ng-deep {
@@ -18,5 +22,8 @@
         grid-gap: 10px;
         grid-auto-flow: column;
         
+        li {
+            display: inline;
+        }
     }
 }
