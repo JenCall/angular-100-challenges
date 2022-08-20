@@ -2,20 +2,16 @@
     <div class="item" *ngFor="let item of items">
         <div class="header">
             <h4>{{item.title}}</h4>
-            <span class="material-symbols-outlined">
-            expand_more
-            </span>
-            <i 
+            <i  
                 class="fas fa-chevron-down" 
                 [class.is-expanded]="item.isExpanded"
-            >
+                (click)="toggle(item)">
             </i>
         </div>
 
         <div 
             class="content"
-            [class.is-expanded]="item.isExpanded"
-        >
+            [class.is-expanded]="item.isExpanded">
             <p>{{item.content}}</p>
         </div>
     </div>
