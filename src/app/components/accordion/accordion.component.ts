@@ -8,4 +8,8 @@ import { AccordionItem } from './accordion-item.interface';
 })
 export class AccordionComponent {
   @Input() public items: AccordionItem[] = [];
+
+  public toggle(item: AccordionItem): void {
+    item.isExpanded = !item.isExpanded;
+  }
 }
