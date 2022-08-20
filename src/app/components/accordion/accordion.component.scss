@@ -23,14 +23,14 @@ $padding: 10px 20px;
               }
             }
         }
-    }
 
-    .content {
-        padding: $padding;
-        display: none;
-  
-        &.is-expanded {
-          display: block;
+        .content {
+            padding: $padding;
+            display: none;
+    
+            &.is-expanded {
+            display: block;
+            }
         }
     }
 }
