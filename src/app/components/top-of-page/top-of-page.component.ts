@@ -5,11 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './top-of-page.component.html',
   styleUrls: ['./top-of-page.component.scss']
 })
-export class TopOfPageComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class TopOfPageComponent  {
+  public isShown = false;
 
 }
