@@ -11,6 +11,7 @@ import { StarRatingsComponent } from './components/star-ratings/star-ratings.com
 import { TopOfPageComponent } from './components/top-of-page/top-of-page.component';
 import { RouterModule } from '@angular/router';
 import { ComponentDocumentationComponent } from './components/component-documentation/component-documentation.component';
+import { APP_ROUTES } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { ComponentDocumentationComponent } from './components/component-document
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot([])
+    RouterModule.forRoot(APP_ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
