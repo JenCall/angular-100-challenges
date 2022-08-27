@@ -25,7 +25,6 @@ import { ServiceDocumentationComponent } from './services/service-documentation/
     StarRatingsComponent,
     TopOfPageComponent,
     ComponentDocumentationComponent,
-    PipeDocumentationComponent,
     ServiceDocumentationComponent,
 ],
   imports: [
