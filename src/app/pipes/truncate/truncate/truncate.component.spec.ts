@@ -1,25 +1,8 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { TruncatePipe } from './truncate.pipe';
 
-import { TruncateComponent } from './truncate.component';
-
-describe('TruncateComponent', () => {
-  let component: TruncateComponent;
-  let fixture: ComponentFixture<TruncateComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ TruncateComponent ]
-    })
-    .compileComponents();
-  });
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(TruncateComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
+describe('TruncatePipe', () => {
+  it('create an instance', () => {
+    const pipe = new TruncatePipe();
+    expect(pipe).toBeTruthy();
   });
 });
