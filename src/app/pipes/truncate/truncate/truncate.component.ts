@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Pipe, PipeTransform } from '@angular/core';
 
-@Component({
-  selector: 'app-truncate',
-  templateUrl: './truncate.component.html',
-  styleUrls: ['./truncate.component.scss']
+@Pipe({
+  name: 'appTruncate'
 })
-export class TruncateComponent implements OnInit {
+export class TruncatePipe implements PipeTransform {
 
-  constructor() { }
+  public transform(value: string = '', length: number = 100): string {
+    let availableCharacters = value.slice(0, length);
 
-  ngOnInit(): void {
+    if (value.length > length) {
+      availableCharacters += '...';
+    }
+
+    return availableCharacters;
   }
-
 }
