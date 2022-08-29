@@ -3,11 +3,11 @@ import { CommonModule } from '@angular/common';
 import { PipeDocumentationComponent } from './pipe-documentation/pipe-documentation.component';
 import { RouterModule } from '@angular/router';
 import { PIPES_ROUTES } from './pipes.routes';
-import { TruncateComponent } from './truncate/truncate/truncate.component';
+import { TruncatePipe } from './truncate/truncate/truncate.pipe';
 
 
 @NgModule({
-  declarations: [PipeDocumentationComponent, TruncateComponent],
+  declarations: [PipeDocumentationComponent, TruncatePipe],
   imports: [
     CommonModule,
     RouterModule.forChild(PIPES_ROUTES)
