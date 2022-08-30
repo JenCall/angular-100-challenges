@@ -14,6 +14,7 @@ import { ComponentDocumentationComponent } from './components/component-document
 import { APP_ROUTES } from './app.routes';
 import { PipeDocumentationComponent } from './pipes/pipe-documentation/pipe-documentation.component';
 import { ServiceDocumentationComponent } from './services/service-documentation/service-documentation.component';
+import { LoaderComponent } from './components/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ServiceDocumentationComponent } from './services/service-documentation/
     TopOfPageComponent,
     ComponentDocumentationComponent,
     ServiceDocumentationComponent,
+    LoaderComponent,
 ],
   imports: [
     BrowserModule,
