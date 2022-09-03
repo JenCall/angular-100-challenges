@@ -6,7 +6,6 @@ import { ComponentDocumentationComponent } from './component-documentation/compo
 import { AccordionComponent } from './accordion/accordion.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { StarRatingsComponent } from './star-ratings/star-ratings.component';
-import { TopOfPageComponent } from './top-of-page/top-of-page.component';
 import { SharedModule } from '../shared/shared.module';
 import { COMPONENTS_ROUTES } from './components.routes';
 
@@ -14,8 +13,7 @@ import { COMPONENTS_ROUTES } from './components.routes';
   declarations: [ComponentDocumentationComponent,
     AccordionComponent,
     ProgressBarComponent,
-    StarRatingsComponent,
-    TopOfPageComponent
+    StarRatingsComponent
   ],
   imports: [
     CommonModule,
