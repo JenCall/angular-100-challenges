@@ -14,7 +14,7 @@ export const APP_ROUTES: Routes = [
   },
   {
     path: 'directives',
-    loadChildren: () => import('./directives/directive-documentation/directive-documentation.component').then((m) => m.DirectivesModule)
+    loadChildren: () => import('./directives/directives.module').then((m) => m.DirectivesModule)
   },
   {
     path: 'pipes',
