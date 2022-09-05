@@ -9,13 +9,15 @@ import { StarRatingsComponent } from './star-ratings/star-ratings.component';
 import { SharedModule } from '../shared/shared.module';
 import { COMPONENTS_ROUTES } from './components.routes';
 import { FooterComponent } from './footer/footer.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
     AccordionComponent,
     ProgressBarComponent,
     StarRatingsComponent,
-    FooterComponent
+    FooterComponent,
+    ModalComponent
   ],
   imports: [
     CommonModule,
