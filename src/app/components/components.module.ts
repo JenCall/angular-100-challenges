@@ -10,6 +10,7 @@ import { SharedModule } from '../shared/shared.module';
 import { COMPONENTS_ROUTES } from './components.routes';
 import { FooterComponent } from './footer/footer.component';
 import { ModalComponent } from './modal/modal.component';
+import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -17,7 +18,8 @@ import { ModalComponent } from './modal/modal.component';
     ProgressBarComponent,
     StarRatingsComponent,
     FooterComponent,
-    ModalComponent
+    ModalComponent,
+    ButtonToggleComponent
   ],
   imports: [
     CommonModule,
