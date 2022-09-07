@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AccordionItem } from '../../components/accordion/accordion-item.interface';
+import { ButtonMeta } from '../button-toggle/button-meta.model'
 
 @Component({
   selector: 'app-component-documentation',
@@ -24,5 +25,11 @@ export class ComponentDocumentationComponent {
   ];
 
   public progressValue = 25;
+
+  public buttonToggleOptions: ButtonMeta[] = [
+    new ButtonMeta({ id: 1, title: 'Bold' }),
+    new ButtonMeta({ id: 2, title: 'Italic' }),
+    new ButtonMeta({ id: 3, title: 'Underline' }),
+  ];
 
 }
