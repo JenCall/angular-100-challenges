@@ -11,6 +11,7 @@ import { COMPONENTS_ROUTES } from './components.routes';
 import { FooterComponent } from './footer/footer.component';
 import { ModalComponent } from './modal/modal.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
+import { BottomSheetComponent } from './bottom-sheet/bottom-sheet.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -19,7 +20,8 @@ import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
     StarRatingsComponent,
     FooterComponent,
     ModalComponent,
-    ButtonToggleComponent
+    ButtonToggleComponent,
+    BottomSheetComponent
   ],
   imports: [
     CommonModule,
