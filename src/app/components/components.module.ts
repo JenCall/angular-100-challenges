@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ModalComponent } from './modal/modal.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { BottomSheetComponent } from './bottom-sheet/bottom-sheet.component';
+import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -21,7 +22,8 @@ import { BottomSheetComponent } from './bottom-sheet/bottom-sheet.component';
     FooterComponent,
     ModalComponent,
     ButtonToggleComponent,
-    BottomSheetComponent
+    BottomSheetComponent,
+    CountdownTimerComponent
   ],
   imports: [
     CommonModule,
