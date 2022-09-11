@@ -11,7 +11,7 @@ export class CountdownTimerComponent {
     milliseconds: 1000,
     minuteInSeconds: 60,
     minutesInHours: 60,
-    hoursInDay: 24
+    hoursInDay: 24,
   };
   @Input() set time(value: string) {
     this.countDownTime = new Date(value).getTime();
