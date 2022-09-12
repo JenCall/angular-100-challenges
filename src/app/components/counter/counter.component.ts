@@ -1,15 +1,24 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-counter',
   templateUrl: './counter.component.html',
   styleUrls: ['./counter.component.scss']
 })
-export class CounterComponent implements OnInit {
+export class CounterComponent {
+  @Input() public counter = 0;
+  @Input() public min = 0;
+  @Input() public max = Number.MAX_SAFE_INTEGER;
 
-  constructor() { }
-
-  ngOnInit(): void {
+  public minusOne(): void {
+    if (this.min < this.counter) {
+      this.counter--;
+    }
   }
 
+  public addOne(): void {
+    if (this.max > this.counter) {
+      this.counter++;
+    }
+  }
 }
