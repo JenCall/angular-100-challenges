@@ -14,6 +14,7 @@ import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { BottomSheetComponent } from './bottom-sheet/bottom-sheet.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 import { CounterComponent } from './counter/counter.component';
+import { LinkedinPostComponent } from './linkedin-post/linkedin-post.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -25,7 +26,8 @@ import { CounterComponent } from './counter/counter.component';
     ButtonToggleComponent,
     BottomSheetComponent,
     CountdownTimerComponent,
-    CounterComponent
+    CounterComponent,
+    LinkedinPostComponent
   ],
   imports: [
     CommonModule,
