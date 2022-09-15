@@ -15,6 +15,7 @@ import { BottomSheetComponent } from './bottom-sheet/bottom-sheet.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 import { CounterComponent } from './counter/counter.component';
 import { LinkedinPostComponent } from './linkedin-post/linkedin-post.component';
+import { BannerCutOutComponent } from './banner-cut-out/banner-cut-out.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -27,7 +28,8 @@ import { LinkedinPostComponent } from './linkedin-post/linkedin-post.component';
     BottomSheetComponent,
     CountdownTimerComponent,
     CounterComponent,
-    LinkedinPostComponent
+    LinkedinPostComponent,
+    BannerCutOutComponent
   ],
   imports: [
     CommonModule,
