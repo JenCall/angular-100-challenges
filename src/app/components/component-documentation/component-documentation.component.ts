@@ -32,4 +32,6 @@ export class ComponentDocumentationComponent {
     new ButtonMeta({ id: 3, title: 'Underline' }),
   ];
 
+  public isShownOverlay = false;
+
 }
