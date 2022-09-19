@@ -17,6 +17,7 @@ import { CounterComponent } from './counter/counter.component';
 import { LinkedinPostComponent } from './linkedin-post/linkedin-post.component';
 import { BannerCutOutComponent } from './banner-cut-out/banner-cut-out.component';
 import { OverlayComponent } from './overlay/overlay.component';
+import { QuoteComponent } from './quote/quote.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -31,7 +32,8 @@ import { OverlayComponent } from './overlay/overlay.component';
     CounterComponent,
     LinkedinPostComponent,
     BannerCutOutComponent,
-    OverlayComponent
+    OverlayComponent,
+    QuoteComponent
   ],
   imports: [
     CommonModule,
