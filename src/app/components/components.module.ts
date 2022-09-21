@@ -18,6 +18,7 @@ import { LinkedinPostComponent } from './linkedin-post/linkedin-post.component';
 import { BannerCutOutComponent } from './banner-cut-out/banner-cut-out.component';
 import { OverlayComponent } from './overlay/overlay.component';
 import { QuoteComponent } from './quote/quote.component';
+import { SkeletonLoaderComponent } from './skeleton-loader/skeleton-loader.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -33,7 +34,8 @@ import { QuoteComponent } from './quote/quote.component';
     LinkedinPostComponent,
     BannerCutOutComponent,
     OverlayComponent,
-    QuoteComponent
+    QuoteComponent,
+    SkeletonLoaderComponent
   ],
   imports: [
     CommonModule,
