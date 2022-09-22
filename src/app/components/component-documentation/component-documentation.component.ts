@@ -33,5 +33,6 @@ export class ComponentDocumentationComponent {
   ];
 
   public isShownOverlay = false;
-
+  
+  public loaded = false;
 }
