@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-toggle',
   templateUrl: './toggle.component.html',
   styleUrls: ['./toggle.component.scss']
 })
-export class ToggleComponent implements OnInit {
+export class ToggleComponent {
+  @Input() public isOn = false;
 
-  constructor() { }
-
-  ngOnInit(): void {
+  public toggle() {
+    this.isOn = !this.isOn;
   }
-
 }
