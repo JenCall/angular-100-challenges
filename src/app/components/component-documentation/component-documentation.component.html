@@ -45,6 +45,10 @@
    </app-quote>
 </app-card>
 
+<app-card [iconClasses]="'fas fa-info-circle'" [title]="'Toggle'" [subTitle]="'Components'">
+   <app-toggle [isOn]="toggleValue" body></app-toggle>
+</app-card>
+
 <app-card [iconClasses]="'fas fa-info-circle'" [title]="'Skeleton Loader'" [subTitle]="'Components'">
    <div body>
      <app-skeleton-loader *ngIf="!loaded">
