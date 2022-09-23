@@ -35,4 +35,6 @@ export class ComponentDocumentationComponent {
   public isShownOverlay = false;
   
   public loaded = false;
+
+  public toggleValue = false;
 }
