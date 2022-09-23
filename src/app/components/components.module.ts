@@ -19,6 +19,7 @@ import { BannerCutOutComponent } from './banner-cut-out/banner-cut-out.component
 import { OverlayComponent } from './overlay/overlay.component';
 import { QuoteComponent } from './quote/quote.component';
 import { SkeletonLoaderComponent } from './skeleton-loader/skeleton-loader.component';
+import { ToggleComponent } from './toggle/toggle.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -35,7 +36,8 @@ import { SkeletonLoaderComponent } from './skeleton-loader/skeleton-loader.compo
     BannerCutOutComponent,
     OverlayComponent,
     QuoteComponent,
-    SkeletonLoaderComponent
+    SkeletonLoaderComponent,
+    ToggleComponent
   ],
   imports: [
     CommonModule,
