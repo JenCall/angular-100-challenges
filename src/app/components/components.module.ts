@@ -20,6 +20,7 @@ import { OverlayComponent } from './overlay/overlay.component';
 import { QuoteComponent } from './quote/quote.component';
 import { SkeletonLoaderComponent } from './skeleton-loader/skeleton-loader.component';
 import { ToggleComponent } from './toggle/toggle.component';
+import { TwitterPostComponent } from './twitter-post/twitter-post.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -37,7 +38,8 @@ import { ToggleComponent } from './toggle/toggle.component';
     OverlayComponent,
     QuoteComponent,
     SkeletonLoaderComponent,
-    ToggleComponent
+    ToggleComponent,
+    TwitterPostComponent
   ],
   imports: [
     CommonModule,
