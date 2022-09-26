@@ -21,6 +21,7 @@ import { QuoteComponent } from './quote/quote.component';
 import { SkeletonLoaderComponent } from './skeleton-loader/skeleton-loader.component';
 import { ToggleComponent } from './toggle/toggle.component';
 import { TwitterPostComponent } from './twitter-post/twitter-post.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -39,7 +40,8 @@ import { TwitterPostComponent } from './twitter-post/twitter-post.component';
     QuoteComponent,
     SkeletonLoaderComponent,
     ToggleComponent,
-    TwitterPostComponent
+    TwitterPostComponent,
+    TabsComponent
   ],
   imports: [
     CommonModule,
