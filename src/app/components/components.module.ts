@@ -22,6 +22,8 @@ import { SkeletonLoaderComponent } from './skeleton-loader/skeleton-loader.compo
 import { ToggleComponent } from './toggle/toggle.component';
 import { TwitterPostComponent } from './twitter-post/twitter-post.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { PagingComponent } from './paging/paging.component';
+import { DebounceSearchComponent } from './debounce-search/debounce-search.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -41,7 +43,9 @@ import { TabsComponent } from './tabs/tabs.component';
     SkeletonLoaderComponent,
     ToggleComponent,
     TwitterPostComponent,
-    TabsComponent
+    TabsComponent,
+    PagingComponent,
+    DebounceSearchComponent
   ],
   imports: [
     CommonModule,

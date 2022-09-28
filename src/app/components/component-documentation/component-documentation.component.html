@@ -15,6 +15,17 @@
 <app-card [iconClasses]="'fas fa-info-circle'" [title]="'Twitter Post'" [subTitle]="'Components'">
    <app-twitter-post body></app-twitter-post>
 </app-card>
+
+<app-card [iconClasses]="'fas fa-info-circle'" [title]="'Tabs'" [subTitle]="'Components'">
+  <app-tabs body [tabs]="tabs" (selectedTabIndex)="selectedTab = $event;">
+    <app-paging *ngIf="selectedTab === 0" [totalItems]="200"> </app-paging>
+    <app-counter *ngIf="selectedTab === 1"></app-counter>
+  </app-tabs>
+</app-card>
+
+<app-card [iconClasses]="'fas fa-info-circle'" [title]="'Paging'" [subTitle]="'Components'">
+  <app-paging body [totalItems]="200"> </app-paging>
+</app-card>
  
 <app-card [iconClasses]="'fas fa-info-circle'" [title]="'Bottom Sheet'" [subTitle]="'Components'">
    <div body>

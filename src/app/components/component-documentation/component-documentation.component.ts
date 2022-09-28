@@ -37,4 +37,10 @@ export class ComponentDocumentationComponent {
   public loaded = false;
 
   public toggleValue = false;
+
+  public tabs: { title: string, active: boolean }[] = [
+    { title: 'Tab 1', active: true },
+    { title: 'Tab 2', active: false },
+  ];
+  public selectedTab = 0;
 }
