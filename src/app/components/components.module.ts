@@ -13,17 +13,14 @@ import { ModalComponent } from './modal/modal.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { BottomSheetComponent } from './bottom-sheet/bottom-sheet.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
-import { CounterComponent } from './counter/counter.component';
 import { LinkedinPostComponent } from './linkedin-post/linkedin-post.component';
 import { BannerCutOutComponent } from './banner-cut-out/banner-cut-out.component';
 import { OverlayComponent } from './overlay/overlay.component';
 import { QuoteComponent } from './quote/quote.component';
-import { SkeletonLoaderComponent } from './skeleton-loader/skeleton-loader.component';
 import { ToggleComponent } from './toggle/toggle.component';
 import { TwitterPostComponent } from './twitter-post/twitter-post.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { PagingComponent } from './paging/paging.component';
-import { DebounceSearchComponent } from './debounce-search/debounce-search.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -35,17 +32,14 @@ import { DebounceSearchComponent } from './debounce-search/debounce-search.compo
     ButtonToggleComponent,
     BottomSheetComponent,
     CountdownTimerComponent,
-    CounterComponent,
     LinkedinPostComponent,
     BannerCutOutComponent,
     OverlayComponent,
     QuoteComponent,
-    SkeletonLoaderComponent,
     ToggleComponent,
     TwitterPostComponent,
     TabsComponent,
     PagingComponent,
-    DebounceSearchComponent
   ],
   imports: [
     CommonModule,
