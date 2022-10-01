@@ -22,6 +22,7 @@ import { TwitterPostComponent } from './twitter-post/twitter-post.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { PagingComponent } from './paging/paging.component';
 import { DebounceSearchComponent } from './debounce-search/debounce-search.component';
+import { CounterComponent } from './counter/counter.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -42,6 +43,7 @@ import { DebounceSearchComponent } from './debounce-search/debounce-search.compo
     TabsComponent,
     PagingComponent,
     DebounceSearchComponent,
+    CounterComponent,
   ],
   imports: [
     CommonModule,
