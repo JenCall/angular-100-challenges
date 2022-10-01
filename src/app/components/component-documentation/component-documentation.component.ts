@@ -43,4 +43,8 @@ export class ComponentDocumentationComponent {
     { title: 'Tab 2', active: false },
   ];
   public selectedTab = 0;
+
+  public debounceExampleMethod(value: string): void {
+    console.log('Component Documentation', value);
+  }
 }
