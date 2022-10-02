@@ -23,6 +23,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { PagingComponent } from './paging/paging.component';
 import { DebounceSearchComponent } from './debounce-search/debounce-search.component';
 import { CounterComponent } from './counter/counter.component';
+import { SkeletonLoaderComponent } from './skeleton-loader/skeleton-loader.component';
 
 @NgModule({
   declarations: [ComponentDocumentationComponent,
@@ -44,6 +45,7 @@ import { CounterComponent } from './counter/counter.component';
     PagingComponent,
     DebounceSearchComponent,
     CounterComponent,
+    SkeletonLoaderComponent,
   ],
   imports: [
     CommonModule,
